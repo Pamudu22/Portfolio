@@ -1,8 +1,9 @@
 import React from 'react'
+import ImageCard from '../components/ImageCard'
 
 function Home() {
   return (
-    <div>Home</div>
+    <ImageCard />
   )
 }
 
