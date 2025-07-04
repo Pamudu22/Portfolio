@@ -5,7 +5,7 @@ import { projects } from '../data/ProjectData';
 function Projects() {
   return (
     <div className="px-6 md:px-20 py-12 bg-white min-h-screen">
-      <h1 className="text-4xl font-bold text-center mb-12 text-blue-600">My Projects</h1>
+      <h1 className="text-4xl font-bold text-center mb-12 text-gray-900">My Projects</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {projects.map((project) => (
           <div key={project.id} className="bg-gray-50 rounded-lg shadow-md overflow-hidden">

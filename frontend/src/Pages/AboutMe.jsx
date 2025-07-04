@@ -5,7 +5,7 @@ import myImage from '../assets/Pamudu.png';
 function AboutMe() {
   return (
     <div className="min-h-screen bg-white px-6 md:px-20 py-16 text-gray-800">
-      <h1 className="text-4xl font-bold text-center mb-12 text-blue-600">About Me</h1>
+      <h1 className="text-4xl font-bold text-center mb-12 text-gray-900">About Me</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
 
